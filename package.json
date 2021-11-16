@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +20,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.12",
     "xss-clean": "^0.1.1"
+  },
+  "engines": {
+    "node": "15.x"
   }
 }
